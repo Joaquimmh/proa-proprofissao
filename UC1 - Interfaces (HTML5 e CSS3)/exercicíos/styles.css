@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+#container {
+    width: 80%;
+    height: auto;
+    background-color: #f0a2a2;
+    margin: 20px auto;
+    position: relative;
+}
+
+#limao {
+    background-color: #ccff00;
+    background-image: url(guitarras_header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 180px;
+    margin: 5px 0;
+    position: relative;
+    display: flex;
+    padding: 10px;
+    padding-right: 30px;
+    justify-content: end;
+    align-items: end;
+}
+.pm{
+    float: left;
+    margin: 10px;
+    font-weight: 500;
+    color: #a70000;
+}
+#menu{
+    background-color: white;
+}
+
+#dupla-rosa {
+    display: flex;
+    padding-bottom: 20px;
+    background-color: #ff0000;
+    margin: 5px 0;
+    position: relative;
+    justify-content: space-between;
+}
+
+#h1t{
+    color: white;
+}
+
+#textp{
+    font-size: 14px;
+    color: white;
+}
+
+#rosa1, #rosa2 {
+    background-color: #d28e8e;
+    flex: 1;
+    height: 280px;
+    margin: 30px;
+    position: relative;
+}
+
+#rosa1{
+    padding: 25px;
+}
+
+#rosa2 {
+    position: relative;
+    background-image: url(loja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#quatro-branca {
+    display: flex;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+    margin: 5px 0;
+    justify-content: space-between;
+    position: relative;
+}
+
+#branca1, #branca2, #branca3, #branca4 {
+    background-color: #ffffff;
+    border-radius: 12px;
+    flex: 1;
+    font-size: 12px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    
+}
+
+#preco{
+    font-weight: bolder;
+    color: #ff0000;
+}
+
+.bimg{
+    position: relative;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+#laranja {
+    display: flex;
+    background-color: #ff7b00;
+    padding-bottom: 20px;
+    margin: 5px 0;
+    justify-content: space-between;
+    position: relative;
+}
+
+#maps {
+    flex: 1;
+    top: 3px;
+    margin: 30px;
+    position: relative;
+}
+
+#mapstext{
+    flex: 1;
+    top: 3px;
+    margin: 30px;
+    position: relative;
+    background-color: #d34d00;
+    padding: 25px;
+}
+
+#dupla-embaixo {
+    display: flex;
+    background-color: #ffffff;
+    margin: 5px 0;
+    position: relative;
+}
+
+#textm{
+    font-size: 14px;
+    color: white;
+}
+
+#azul-escuro, #verde {
+    flex: 1;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: relative;
+    height: 310px;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+#azul-escuro {
+    background-color: #ffffff;
+}
+
+#enome {
+    position: relative;
+    padding: 10px;
+    width: 450px;
+    border: 2px solid #000;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: dimgray;
+    font-size: 12px;
+}
+
+
+#email {
+    margin-top: 10px;
+}
+
+#eemail {
+    position: relative;
+    padding: 10px;
+    width: 450px;
+    border: 2px solid #000;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: dimgray;
+    font-size: 12px;
+}
+
+#pedido{
+    position: relative;
+    padding: 10px;
+    margin-top: 10px;
+    width: 250px;
+    height: 100px;
+    border: 2px solid #000;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: dimgray;
+    font-size: 12px;
+}
+
+#enviar{
+    position: relative;
+    padding: 10px;
+    margin-top: 10px;
+    width: 450px;
+    border: 2px solid #000;
+    border-radius: 6px;
+    background-color: #dbdbdb;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-align: center;
+}
+
+#verde {
+    flex: 1;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#para{
+    position: relative;
+    bottom: 50px;
+    left: 105px;
+    font-weight: bolder;
+    color: #4700a3;
+}
+
+#whats1 {
+    position: relative;
+    background-image: url(whats.png);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    right: 140px;
+    width: 110px;
+    height: 80px;
+    top: 20px;
+   
+}
+
+#insta1 {
+    position: relative;
+    background-image: url(insta.png);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    right: 135px;
+    width: 110px;
+    height: 80px;
+    top: 20px;
+}
+
+#face1 {
+    position: relative;
+    background-image: url(face.png);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    right: 130px;
+    width: 105px;
+    height: 80px;
+    top: 20px;
+}
+
+#preta {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    height: 200px;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#textbold{
+    font-weight: bold;
+}
+
+#rds{
+    position: absolute;
+    display: flex;
+    width: 200px;
+    height: 0px;
+    bottom: 50px;
+    background-color: #ffffff;
+    justify-content: space-around;
+    align-items: end;
+}
+
+#whats2 {
+    position: relative;
+    background-image: url(whats.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    float: left;
+   
+}
+
+#insta2 {
+    position: relative;
+    background-image: url(insta.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    float: left;
+}
+
+#face2 {
+    position: relative;
+    background-image: url(face.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    float: left;
+}
+
+@media only screen and (min-width:1000px) {
+    @media only screen and (max-width:1226px){
+        #dupla-rosa {
+            display: flex;
+            padding-bottom: 10px;
+            height: 330px;
+            background-color: #ff0000;
+            margin: 5px 0;
+            position: relative;
+            justify-content: space-between;
+
+            #rosa1, #rosa2 {
+                background-color: #d28e8e;
+                flex: 1;
+                height: 280px;
+                margin: 15px;
+                position: relative;
+                padding: 5px;
+            }
+            
+            laranja {
+                display: flex;
+                background-color: #0e0701;
+                padding-bottom: 20px;
+                justify-content: space-between;
+                position: relative;
+            }
+            
+            #maps {
+                flex: 1;
+                top: 3px;
+                
+                margin: 30px;
+                position: relative;
+            }
+            
+            #mapstext{
+                flex: 1;
+                top: 3px;
+                margin: 30px;
+                position: relative;
+                background-color: #000000;
+                padding: 25px;
+            }
+
+        }
+    }
+}

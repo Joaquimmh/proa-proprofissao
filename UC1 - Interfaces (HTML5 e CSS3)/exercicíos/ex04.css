@@ -1,0 +1,96 @@
+body{
+    font-family: montserrat;
+    font-size: 12px;
+    margin: center;
+    position: relative;
+}
+#verde{
+    background-color: chartreuse;
+    font-size: 25px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 895px;
+    height: 70px;
+}
+
+#all{
+    background-color: rgb(255, 0, 0);
+    margin: auto;
+}
+
+#azul{
+    background-color: aqua;
+    width: 265px;
+    height: 384px;
+    float: left;
+}
+
+#box1{
+    position: relative;
+    background-color: white;
+    left: 14px;
+    width: 235px;
+    height: 170px;
+}
+
+#box2{
+    position: relative;
+    background-color: white;
+    left: 14px;
+    top: 14px;
+    width: 235px;
+    height: 170px;
+}
+
+#roxo{
+    background-color: blueviolet;
+    width: 630px;
+    height: 384px;
+    float: left;
+}
+
+#branco{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    left: 7px;
+    width: 616px;
+    height: 369px;
+}
+
+#tag{
+    background-color: aquamarine;
+    font-weight: 800;
+    text-align: center;
+    width: 616px;
+    height: 20px;
+}
+
+#salmao{
+    position: relative;
+    background-color: tomato;
+    color: white;
+    top: 7px;
+    width: 616px;
+    height: 145px;
+}
+
+#lilas{
+    position: relative;
+    background-color: mediumpurple;
+    top: 14px;
+    width: 616px;
+    height: 163px;
+
+}
+
+#marrom{
+    position: relative;
+    background-color: rgb(39, 16, 0);
+    color: white;
+    width: 895px;
+    height: 70px;
+    clear: left;
+
+}

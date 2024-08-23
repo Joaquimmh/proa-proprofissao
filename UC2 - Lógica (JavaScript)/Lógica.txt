@@ -1,0 +1,20 @@
+Temas importantes na lógica de programação:
+
+Ciclo de processamento:
+Entrada (dados) -> Processamento -> Saída (Informação)
+Informação é os dados processados
+
+O que é um algoritmo e porque ele é importante para a lógica de programação?
+    Um algoritmo é uma sequência de instruçoes ou comando realizados de maneira sistemática e ordenada, com objetivo de resolver um problema ou executar uma tarefa.
+    
+    Um exemplo:
+    1º Passo - Ouvir o despertador tocar.
+    2º Passo - Acordar.
+    3º Passo - Desligar o despertador.
+    4º Passo - Levantar.
+
+Fluxograma: (outra forma de descrever um algoritmo)
+O Fluxograma usa formas geométricas que têm um significado específico para cada ação, instrução ou comando que precisa se executado.
+
+
+
