@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="atividade10.html">
+    <link rel="stylesheet" href="atividade10.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>YouTube</title>
 </head>
@@ -12,13 +12,51 @@
     <!--Barra de Pesquisa-->
     <header>
         <nav id="navprincipal">
-            <input id="navlateralpng" type="button">
-            <input id="logo" type="button">
-            <input id="boxpesquisa" type="search">
-            <input id="buttompesquisa" type="button">
-            <input id="microfone" type="button">
-            <input id="criar" type="button" value="">
-            <input id="notifica" type="button">
+
+            <div id="menudivpng">
+                <input id="menubuttom" type="button">
+                <a id="navlateralpng" href="#">
+                    <img src="imagens/menu.svg" alt="menu lateral">
+                </a>
+            </div>
+
+            <div id="logo">
+                <input id="logobuttom" type="button">
+                <a id="logoimg" href="#">
+                    <img src="imagens/yt - branco.png" alt="logo do YouTube" width="125px">
+            </a></div>
+
+            <div id="pesquisa">
+                <input id="boxpesquisa" type="search" placeholder="Pesquisar">
+                <div id="divpesquisa">
+                    <input id="buttompesquisa" type="button">
+                    <a id="pesquisaimg" href="#">
+                        <img src="imagens/search.png" alt="pesquisar" width="25px">
+                    </a>
+                    
+                </div>
+            </div>
+            <div id="micro">
+                <input id="microfone" type="button">
+                <a id="microfoneimg" href="#">
+                    <img src="imagens/microphone.png" alt="microfone" width="18px">
+                </a>
+
+            </div>
+
+            <div id="cameradiv">
+                <input id="camerabuttom" type="button">
+                <a id="cameraimg" href="#">
+                    <img src="imagens/video-camera.png" alt="Criar" width="22px">
+                </a>
+            </div>
+
+            <div id="notificadiv">
+                <input id="notificabuttom" type="button">
+                <a id="notificaimg" href="#">
+                    <img src="imagens/bell.png" alt="Notificações" width="28px">
+                </a>
+            </div>
             <input id="perfil" type="button">
         </nav>
         <!--Tags-->
