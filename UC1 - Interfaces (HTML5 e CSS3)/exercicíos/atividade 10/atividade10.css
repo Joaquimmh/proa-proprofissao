@@ -10,6 +10,7 @@ body{
     font-family: 'Roboto', sans-serif;
     width: 100%;
     height: 100vh;
+    
 }
 
 header{
@@ -99,6 +100,8 @@ header{
     background: #121212;
     padding: 15px;
     font-size: 16px;
+    font-weight: 500;
+    color: white;
     font-weight: 500;
 }
 
@@ -227,13 +230,376 @@ section{
 }
 
 #navtags{
-    background-color: blue;
-    height: 50px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tags{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #3F3F3F;
+    padding: 7px 10px;
+    border-radius: 7px;
+    margin: 5px 5px 5px 5px;
+    border: none;
+}
+
+.tags:hover{
+    background-color: #5a5a5a;
+}
+
+.navlateral{
+    display: flex;
+    flex-direction: column;
+    background-color: #0F0F0F;
+    width: 19%;
+     height: 100vh;
+    overflow-y: auto; 
+    
+    
+}
+
+.buttonnavl{
+    display: none;
+}
+
+.navlbuttonss{
+    padding: 12px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    margin: 1px 10px;
+    padding-left: 10px;
+    border-radius: 12px;
+    border: none;
+    width: 190px;
+    height: 100vh;
+    background-color: #333333;
+    align-items: center;
+}
+
+.navlbuttonss:hover{
+    background-color: #424242;
+}
+
+.navlbuttons{
+    padding: 12px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    margin: 1px 10px;
+    padding-left: 10px;
+    border-radius: 12px;
+    border: none;
+    width: 190px;
+    height: 100vh;
+    background-color: #0F0F0F;
+    align-items: center;
+}
+
+.linha {
+    border: none; 
+    margin: 7px 12px;
+    border-top: 1px solid #b3b3b32f; 
+}
+
+.buttonimg{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.buttonimg > img{
+    margin-right: 24px;
+    margin-left: 5px;
+}
+
+.navlbuttons:hover{
+    background-color: #333333;}
+
+h2{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 22px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    
+}
+
+.links{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    margin-left: 22px;
+    margin-top: 10px;
+
+} 
+#linksjuntos{
+    margin-top: 10px;
+}
+
+#fim{
+    color: rgba(255, 255, 255, 0.24);
+    margin-left: 22px;
+    font-size: 12px;
+}
+
+#maisdiv{
+    z-index: 1;
+    position: absolute;
+    width: 160px;
+    height: 45px;
+    margin-left: 910px;
+    background-image: linear-gradient(to right, #00000000, #0f0f0ff1, #0F0F0F);
+    display: flex;
+    align-items: center;
+    justify-items: end;
+}
+#adiv{
+    margin-left: 135px;
+}
+
+#maistags{
+    display: none;
+}
+
+.elemento::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.elemento::-webkit-scrollbar-track {
+    background: #0000003b; 
+}
+
+.elemento::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.3); 
+    border-radius: 10px; 
+}
+
+/* Efeito de hover para a parte deslizante */
+.elemento::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+/* Personalização para Firefox */
+.elemento {
+    scrollbar-width: thin; 
+    scrollbar-color: rgba(0, 0, 0, 0.3) transparent; 
 }
 
 
+.elemento:hover {
+    scrollbar-color: rgba(0, 0, 0, 0.5) transparent; 
+}
 
-#navlateral{
-    background-color: aqua;
-    width: 18%;
+
+main{
+    display: flex;
+    background-color: #ffffff;
+    margin-left: -1040px;
+    margin-top: 55px;
+    width: 1090px;
+    height: auto;
+    overflow-y: auto; 
+    flex-direction: column;
+    
+}
+
+#um{
+    display: flex;
+    flex-direction: row;
+    background-color: #0F0F0F;
+}
+
+#dois{
+    display: flex;
+    flex-direction: row;
+    background-color: #0F0F0F;
+}
+
+#ladoalado{
+    display: flex;
+    flex-direction: row;
+}
+
+.principalvideo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.thumb{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 255px;
+    height: 150px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.cima{
+    display: flex;
+    width: 255px;
+    flex-direction: column;
+}
+
+.baixo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: flex-start;
+    height: 100px;
+}
+
+.perfilc{
+    border-radius: 360px;
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+.textothumb{
+    margin-left: 10px;
+    color: white;
+    width: 180px;
+}
+
+.pontinhos{
+    display: flex;
+    justify-content: center;
+    background-image: url(imagens/pontos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+}
+
+#maicon{
+    background-image: url(imagens/barraco\ entre\ vizinhos\ é\ melhor\ q\ netflix.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#einerd{
+    background-image: url(imagens/LOKI\ VAI\ SER\ O\ PERSONAGEM...jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#einerdc{
+    background-image: url(imagens/Einerd.jpg);
+    background-size: cover;
+}
+
+#t3ddy{
+    background-image: url(imagens/Quais\ dos\ meus\ inscritos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#t3ddyc{
+    background-image: url(imagens/t3ddy.jpg);
+    background-size: cover;
+}
+
+#cortes{
+    background-image: url(imagens/A\ SOLUÇÃO\ PRO\ VÍCIO\ DE\ CELULAR.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cortesc{
+    background-image: url(imagens/cortesln.jpg);
+    background-size: cover;
+}
+
+#maicon2{
+    background-image: url(imagens/hacks\ de\ vida\ antiéticos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#maiconc{
+    background-image: url(imagens/maiconk.jpg);
+    background-size: cover;
+}
+
+#metaforando{
+    background-image: url(imagens/MARÇAL\ X\ BOULOS\ \ Quem\ VENCEU.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#canalmetaforando{
+    background-image: url(imagens/metaforandota.jpg);
+    background-size: cover;
+}
+
+#ciencia{
+    background-image: url(imagens/O\ futuro\ da\ exploração\ espacial\ no\ UNIVERSO.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cienciac{
+    background-image: url(imagens/ciencia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cassito{
+    background-image: url(imagens/AS\ PIORES\ VS\ AS\ MELHORES\ AVALIAÇÕES\ DO\ IFOOD.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cassitoc{
+    background-image: url(imagens/cassito.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.clink{
+    font-size: 14px;
+    text-decoration: none;
+    color: #a5a5a5;
+}
+
+.clink:hover{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.textothumb > p{
+    color: #a5a5a5;
+    font-size: 14px;
+}
+
+.textothumb > h3{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.tempo{
+    text-align: center;
+    background-color: #0f0f0fce;
+    color: white;
+    font-size: 14px;
+    border-radius: 3px;
+    margin: 6px;
+    width: 44px;
+    height: 17px;
 }
