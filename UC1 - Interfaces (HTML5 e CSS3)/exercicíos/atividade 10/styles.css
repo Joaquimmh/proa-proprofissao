@@ -409,6 +409,7 @@ main{
     width: 1090px;
     height: auto;
     overflow-y: auto; 
+    overflow-x: hidden;
     flex-direction: column;
     
 }
