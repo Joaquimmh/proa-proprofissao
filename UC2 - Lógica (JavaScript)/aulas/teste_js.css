@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+}
+
+img{
+    width: 120px;
+    height: 100px;
+    margin: 30px;
+}
+
+div{
+    position: absolute;
+    top: 180px;
+    left: 386px;
+    width: 350px;
+    height: 200px;
+    border: 5px double;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    visibility: hidden;
+}
+
+#camada1{
+    color: #00aeff;
+    background-color: #005b85;
+    border-color: #00aeff;
+}
+
+#camada2{
+    color: #c20000;
+    background-color: #5a0000;
+    border-color: #c20000;
+}
+
+#camada3{
+    color: #83008f;
+    background-color: #320036;
+    border-color: #83008f;
+}
+
+div img{
+    width: 80px;
+    height: 70px;
+    float: left;
+    margin: 10px;
+}
