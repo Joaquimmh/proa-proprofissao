@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando média aritimetica</title>
+</head>
+<body>
+    <script>
+        let nota1 = parseFloat (prompt("Digite o primeiro número"))
+        let nota2 = parseFloat (prompt("Digite o segundo número"))
+        let nota3 = parseFloat (prompt("Digite o terceiro número"))
+        let nota4 = parseFloat (prompt("Digite o quatro número"))
+
+        let media = (nota1 + nota2 + nota3 + 4) / 4
+
+        document.write("A média gerada é: " + media)
+
+        //arredondamento da média
+        document.write(" <br> A média das 4 notas é: " + Math.round(media))
+
+        //definição de casas decimais 
+        document.write(" <br> A média das 4 notas é:"+ media.ToFixed(2))
+
+        if(media >= 6){
+            document.write("<br> Parabéns você está APROVADO!")
+        }else if(media >=5){
+            document.write("<br> Você está de RECUPERAÇÃO")
+        }else{ 
+            document.write("<br> Que pena! você está REPROVADO!")
+        }
+    </script>
+</body>
+</html>

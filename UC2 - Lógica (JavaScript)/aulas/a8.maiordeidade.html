@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+</head>
+<body>
+    <h1>Você é maior de idade?</h1>
+
+    <script>
+        let idade = parseInt (prompt("Quantos aninhos você tem tereteuteu?"))
+
+        document.write("Você tem " + idade + " Anos!")
+
+        if (idade >= 118){
+            document.write("<br> Você é um deus? idade incorreta!");
+        }else if(idade >= 18){
+            document.write("<br> Você é maior de idade, está aprovado");
+        }else if(idade >= 0 && idade < 18) {
+            document.write("<br> Você é menor de idade, está reprovado");
+        } else {
+            document.write("<br> Idade Inválida");
+        }
+        
+        
+
+
+    </script>
+</body>
+</html>
