@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem de calorias</title>
+</head>
+<body>
+    <h1>Calculadora de calorias</h1>
+    <script>
+        let prato = prompt("Qual será seu prato?").toLowerCase()
+        let sobremesa = prompt("Qual será sua sobremesa?").toLowerCase()
+        let bebida = prompt("Qual será sua bebida?").toLowerCase()
+
+        let caloriasPrato = 0;
+        let caloriasSobremesa = 0;
+        let caloriasBebida = 0;
+
+        switch (prato){
+            case "vegetariano" :
+                caloriasPrato = 180;
+            document.write("Vegetariano - 180cal <br> ");
+            break
+
+            case "peixe" :
+                caloriasPrato = 230;  
+            document.write("Peixe - 230cal <br> ");
+            break
+
+            case "frango" :
+                caloriasPrato = 250;
+            document.write("Frango - 250cal <br> ");
+            break
+
+            case "carne" :
+                caloriasPrato = 350;
+            document.write("Carne - 350cal <br> ");
+            break
+
+        default:
+            document.write("Prato inválido <br> ");
+        }
+
+        switch (sobremesa) {
+            case "abacaxi":
+                caloriasSobremesa = 75;
+            document.write("Abacaxi - 75cal <br> ");
+            break
+
+            case "sorvete diet":
+                caloriasSobremesa = 110;
+            document.write("Sorvete diet - 110cal <br> ");
+            break
+
+            case "mouse diet":
+                caloriasSobremesa = 170;
+            document.write("Mouse diet - 170cal <br> ");
+            break
+
+            case "mouse chocolate":
+                caloriasSobremesa = 200;
+            document.write("Mouse chocolate - 200cal <br> ");
+            break
+            default:
+            document.write("Sobremesa inválida <br> ");
+        }
+
+        switch (bebida) {
+            case "chá":
+            caloriasBebiba = 20;
+            document.write("Chá - 20cal <br> ")
+            break
+
+            case "suco de Laranja":
+            caloriasBebida = 70;
+            document.write("Suco de Laranja - 70cal <br> ")
+            break
+
+            case "suco de melão":
+            caloriasBebida = 100;
+            document.write("Suco de melão - 100cal <br> ")
+            break
+
+            case "refrigerante diet":
+            caloriasBebida = 65;
+            document.write("Refrigerante diet - 65cal <br> ")
+            break
+        default:
+            document.write("Bebida inválida <br> ")
+        }
+
+        let totalCalorias = caloriasPrato + caloriasSobremesa + caloriasBebiba;
+        document.write("<br>Total de calorias: " + totalCalorias + "cal") 
+    </script>
+</body>
+</html>
