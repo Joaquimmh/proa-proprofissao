@@ -1,0 +1,15 @@
+.cabecalho{
+    width: 100%;
+    height: 120px;
+    background-color: yellowgreen;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    color: #f9ffec;
+    font-size: 3em;
+    text-align: center;
+}

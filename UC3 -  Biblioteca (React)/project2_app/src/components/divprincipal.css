@@ -1,0 +1,4 @@
+.divprincipal{
+    display:flex;
+    flex-direction: column;
+}

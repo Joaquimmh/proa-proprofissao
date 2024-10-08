@@ -1,0 +1,15 @@
+.meio{
+    width: 100%;
+    height: 500px;
+    background-color: #da6900;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulomeio{
+    color: #ffe9d4;
+    font-size: 3em;
+    text-align: center;
+}
