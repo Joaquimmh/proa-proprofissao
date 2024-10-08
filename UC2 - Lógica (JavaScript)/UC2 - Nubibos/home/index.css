@@ -1,0 +1,144 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: none;
+    color: black;
+    text-decoration: none;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    padding-top: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E3ECEA;
+    z-index: 997;
+    position: fixed;
+}
+
+#ddprincipal1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#stextos1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#stextos1 > h1{
+    font-size: 60px;
+    line-height: 96.1%;
+    padding-bottom: 4%;
+    color: #1376FF;
+}
+
+#stextos1 > h3{
+    color: #002456;
+    font-size: 27px;
+}
+
+#txedb1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+#dbuttoms1{
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+}
+
+
+#dbuttom1, #dbuttom2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    transform: scale(1.0);
+}
+
+
+#dsvg1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    transform: scale(0.9);
+    justify-content: center;
+    width: 100%;
+    fill: #D5941D;
+    transition: transform 600ms ease, fill 600ms ease;
+}
+
+#dsvg1:hover{
+    transform: scale(1.0);
+    fill: #FFA500;
+}
+
+#dsvg2{
+    #tdv2{
+        fill: #0E315F;
+        transition: transform 600ms ease, fill 600ms ease;
+        position: absolute;
+        z-index: 1;
+    }
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    transform: scale(0.9);
+    justify-content: center;
+    width: 100%;
+    z-index: 0;
+    transition: transform 600ms ease, fill 600ms ease;
+}
+
+#dsvg2:hover{
+    transform: scale(1.0);
+    transition: transform 600ms ease, fill 600ms ease;
+    #pdiv2{
+        transition: transform 600ms ease, fill 600ms ease;
+    }
+}
+
+article{
+    width: 100%;
+    height: 200px;
+    top: 670px;
+    z-index: 998;
+    position: absolute;    
+}
+
+#nuvemhm{
+    background-color: #FFE5F8;
+    position: relative;
+    width: 100%;
+    height: 2000px;
+    z-index: 998;
+}
+
+#nvsvg{
+    position: absolute;
+    bottom: 1780px;
+    z-index: 998;
+}
+
+#divsec{
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+    
+}
+
+
+

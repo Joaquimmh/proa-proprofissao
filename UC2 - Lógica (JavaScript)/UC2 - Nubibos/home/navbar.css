@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    border: none;
+    color: black;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "Quicksand", sans-serif;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #E3ECEA;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #E3ECEA;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+    width: 100%;
+    height: 10%;
+    z-index: 999;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 91%;
+    height: 90%;
+    background-color: #1376FF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 16px 4px hsla(0, 0%, 0%, 40%);
+    
+}
+#navtotal{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 97.5%;
+    height: 100%;
+}
+
+/*LINK 1*/
+#linksnav1{
+    font-size: 18px;
+    color: #E3ECEA;
+    font-weight: 600;
+    position: relative;
+    transition: background-color 600ms ease;
+    transition: background-color 600ms ease, bottom 300ms ease, color 600ms ease, translate 300ms ease;
+    
+}
+
+#linksnav1::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 4px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 300ms ease, top 1000ms ease;  
+}
+
+#linksnav1:hover{
+    top: 0px;
+    color: #00316B;
+}
+
+#linksnav1:hover::after{
+    top: 24px;
+    background-color: #00316B;
+    transition: background-color 600ms ease, top 300ms ease; 
+
+}
+
+/*LINK 2*/
+#linksnav2{
+    padding-bottom: 30px;
+    font-size: 18px;
+    color: #E3ECEA;
+    font-weight: 600;
+    transition: background-color 600ms ease;
+    position: relative;
+    transition: color 300ms ease, transform 300ms ease;    
+}
+
+#linksnav2::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+    height: 4px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 300ms ease, bottom 300ms ease;    
+}
+
+.nav-item:hover #linksnav2,
+.nav-item:hover .dropdown{
+    color: #00316B;
+    transform: translateY(-5px);
+}
+
+#linksnav2:hover::after, 
+.nav-item:hover #linksnav2::after {
+    bottom: 25px;
+    color: #00316B;
+    background-color: #00316B;
+
+}
+
+/*DROPDOWN*/
+ul{
+    list-style: none;
+}
+
+.nav-item{
+    position: relative;
+    margin-top: 36px;
+    padding-bottom: 34px;
+    
+}
+
+.dropdown{
+    position: absolute;
+    top: 80%;
+    width: 180px;
+    left: -50px;
+    background-color: #A1C8FF;
+    border-radius: 12px;
+    font-size: 18px;
+    border: 5px solid #1376FF;
+    display: none;
+    z-index: 999;
+    opacity: 0%;
+    transform: translateY(10px);
+    transition: opacity 300ms ease, transform 300ms ease;
+    
+
+}
+
+.nav-item:hover .dropdown, .dropdown:hover, #linksnav2:hover::after {
+    display: block;
+    opacity: 100%;
+    transform: translateY(0);
+    
+}
+
+.droplinks{
+    padding: 10px;
+    background-color: #A1C8FF;
+    font-weight: 500;
+    color: #00316B;
+    transition: background-color 600ms ease, font-weight 300ms ease;
+}
+
+.droplinks a{
+    color: #00316B;
+}
+
+.droplinks:hover{
+    background-color: #4694FF;
+    font-weight: 800;
+}
+
+#dp1{
+    border-radius: 6px 6px 0px 0px;
+}
+
+#dp4{
+    border-radius: 0px 0px 6px 6px;
+}
+
+/*LINK 3*/
+#linksnav3{
+    font-size: 18px;
+    color: #E3ECEA;
+    position: relative;
+    font-weight: 600;
+    transition: background-color 600ms ease;
+    transition: background-color 600ms ease, bottom 300ms ease, color 600ms ease, translate 300ms ease;
+    
+}
+
+#linksnav3::after{
+     content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 4px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 300ms ease, top 1000ms ease;  
+}
+
+
+#linksnav3:hover{
+    top: 0px;
+    color: #00316B;
+}
+
+#linksnav3:hover::after{
+    top: 24px;
+    background-color: #00316B;
+    transition: background-color 600ms ease, top 300ms ease;
+    
+
+}
+
+
+/*LINK 4*/
+#linksnav4{
+    font-size: 18px;
+    color: #E3ECEA;
+    position: relative;
+    font-weight: 600;
+    transition: background-color 600ms ease;
+    transition: background-color 600ms ease, bottom 300ms ease, color 600ms ease, translate 300ms ease;
+    
+}
+
+#linksnav4::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 4px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 300ms ease, top 1000ms ease;  
+    
+}
+
+#linksnav4:hover{
+    top: 0px;
+    color: #00316B;
+}
+
+#linksnav4:hover::after{
+    top: 24px;
+    background-color: #00316B;
+    transition: background-color 600ms ease, top 300ms ease;
+
+}
+
+
+/*LOGO*/
+
+#logonav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 17.5%;
+    height: 100%;
+}
+
+#logo{
+    width: 26%;
+    height: 71%;
+    background-image: url(Imagens/Isotipo-branco.svg);
+    background-repeat: no-repeat;
+    transition: background-image 300ms ease;
+}
+
+#logo:hover{
+    width: 26%;
+    height: 71%;
+    background-image: url(Imagens/nuvem-logo-branco.svg);
+    background-repeat: no-repeat;
+}
+
+#logotipo{
+    width: 71%;
+    display: flex;
+    height: 60%;
+    background-image: url(Imagens/nubibos-branco.svg);
+    background-repeat: no-repeat;
+}
+
+#loginbutton{
+    text-align: center;
+    flex-direction: column;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 18px;
+    background-color: #D5941D;
+    border-radius: 12px;
+    width: 18%;
+    height: 64%;
+    transition: background-color 800ms ease;
+}
+
+#loginbutton > a{
+    color: white;
+}
+
+#loginbutton:hover{
+    background-color: #FFA500;
+}
