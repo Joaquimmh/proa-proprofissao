@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicío 7</title>
+</head>
+<body>
+    <script>
+        let numero = prompt("Digite um número inteiro:");
+
+        numero = Number(numero);
+
+        if (numero > 1) {
+            let divisor = 2;
+            let primo = true;
+
+            while(divisor < numero){
+                if (numero % divisor === 0){
+                    primo = false;
+                    break;
+                }
+                divisor++;
+            }
+        
+            if (primo) {
+        alert(numero + " é um número primo.");
+    } else {
+        alert(numero + " não é um número primo.");
+    }
+} else {
+    alert("Por favor, insira um número inteiro maior que 1.");
+}
+    </script>
+</body>
+</html>

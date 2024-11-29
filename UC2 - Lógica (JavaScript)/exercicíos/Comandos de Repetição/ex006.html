@@ -7,16 +7,25 @@
 </head>
 <body>
     <script>
-        let contador = 1
-        let num = parseInt(prompt("Digite o número"))
-        while(contador < num)  {
-            if(num% 2==0) {
-                document.write(num)
-            }else {
-                document.write("não existe divisores")
+        let numero = prompt("Digite um número inteiro positivo:");
+        numero = Number(numero);
+
+        if (numero > 0) {
+            let divisores = "Divisores de " + numero + ":\n";
+            let divisor = 1;
+
+        while (divisor <= numero) {
+            if (numero % divisor === 0) {
+                divisores += divisor + "\n";
             }
-            contador++
+            divisor++;
         }
+
+        alert(divisores);
+    }else{
+        alert("Por favor, insira um número inteiro positivo.");
+    }
+    
     </script>
 </body>
 </html>

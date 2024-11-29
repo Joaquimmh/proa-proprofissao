@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicío 9</title>
+</head>
+<body>
+    <script>
+        let contador = 1
+        let somaIdades = 0
+
+
+        while (contador <= 5) {
+            let nome = prompt("Qual é o seu nome?");
+            let idade = Number(prompt("Qual é a sua idade?"));
+
+            somaIdades += idade;
+
+            contador ++;
+        }
+        let mediaIdade = somaIdades / 5;
+
+        alert("A média das idades é... "+ mediaIdade);
+    </script>
+</body>
+</html>
