@@ -1,6 +1,8 @@
 package com.equipe1j.sistema_escolar.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "tb_sala")
@@ -8,16 +10,19 @@ import jakarta.persistence.*;
 public class Sala {
 
     @Id
-    @Column(name = "pk_id_sala")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "pk_id_sala")
     private long id;
 
-    @Column(name = "tb_sala")
+    @Column(name = "tb_sala", nullable = false)
     private String nome;
 
-    @Column(name = "capacidade")
-    private int capacidade;
+    @Column(name = "capacidade", nullable = false)
+    private Integer capacidade;
 
+    @OneToMany(mappedBy = "sala")
+    @JsonIgnore
+    private List<Aluno> alunos;
 
     public long getId() {
         return id;
@@ -35,11 +40,19 @@ public class Sala {
         this.nome = nome;
     }
 
-    public int getCapacidade() {
+    public Integer getCapacidade() {
         return capacidade;
     }
 
-    public void setCapacidade(int capacidade) {
+    public void setCapacidade(Integer capacidade) {
         this.capacidade = capacidade;
+    }
+
+    public List<Aluno> getAlunos() {
+        return alunos;
+    }
+
+    public void setAlunos(List<Aluno> alunos) {
+        this.alunos = alunos;
     }
 }
