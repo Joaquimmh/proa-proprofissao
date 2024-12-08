@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 19</title>
+</head>
+<body>
+    <script>
+        // Solicita o valor da cotação do dólar
+        let cotacaoDolar = parseFloat(prompt("Digite o valor da cotação do dólar (em R$):"));
+
+        // Solicita a quantidade de dólares
+        let quantidadeDolares = parseFloat(prompt("Digite a quantidade de dólares que você tem:"));
+
+        // Calcula o valor em reais
+        let valorEmReais = cotacaoDolar * quantidadeDolares;
+
+        // Exibe o resultado
+        alert("O valor de " + quantidadeDolares + " dólares é equivalente a R$ " + valorEmReais.toFixed(2));
+    </script>
+</body>
+</html>

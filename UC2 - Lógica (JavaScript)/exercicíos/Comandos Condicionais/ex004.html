@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+</head>
+<body>
+    <script>
+        let A = parseInt(prompt("Digite o valor de A:"));
+        let B = parseInt(prompt("Digite o valor de B:"));
+        let C = parseInt(prompt("Digite o valor de C:"));
+
+        if (A >= B && A >= C) {
+            if (B >= C) {
+                alert(A + ", " + B + ", " + C);
+            } else {
+                alert(A + ", " + C + ", " + B);
+            }
+        } else if (B >= A && B >= C) {
+            if (A >= C) {
+                alert(B + ", " + A + ", " + C);
+            } else {
+                alert(B + ", " + C + ", " + A);
+            }
+        } else {
+            if (A >= B) {
+                alert(C + ", " + A + ", " + B);
+            } else {
+                alert(C + ", " + B + ", " + A);
+            }
+        }
+    </script>
+</body>
+</html>

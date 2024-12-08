@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 9</title>
+</head>
+<body>
+    <script>
+        // Valor fixo do salário mínimo
+        const salarioMinimo = 1212.00;
+
+        // Leitura do salário do usuário
+        let salarioUsuario = parseFloat(prompt("Digite o valor do seu salário:"));
+
+        // Cálculo da quantidade de salários mínimos
+        let quantidadeSalarios = salarioUsuario / salarioMinimo;
+
+        // Exibindo o resultado
+        alert("Você ganha " + quantidadeSalarios.toFixed(2) + " salários mínimos.");
+    </script>
+</body>
+</html>

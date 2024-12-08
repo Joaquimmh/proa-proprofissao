@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 30</title>
+</head>
+<body>
+    <script>
+        let somaIdades = 0;
+        let contador = 0;
+        let nome = "";
+
+        do {
+            nome = prompt("Digite o nome da pessoa (ou 'fim' para terminar):");
+            if (nome !== "fim") {
+                let idade = parseInt(prompt("Digite a idade de " + nome + ":"));
+                somaIdades += idade;
+                contador++;
+            }
+        } while (nome !== "fim");
+
+        if (contador > 0) {
+            let media = somaIdades / contador;
+            alert("A média das idades é: " + media);
+        } else {
+            alert("Nenhuma idade foi registrada.");
+        }
+    </script>
+</body>
+</html>

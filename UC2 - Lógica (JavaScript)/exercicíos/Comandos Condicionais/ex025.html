@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 25</title>
+</head>
+<body>
+    <script>
+        let soma = 0;
+        let numero;
+
+        // Enquanto o número não for negativo, continua pedindo e somando
+        while (true) {
+            numero = parseInt(prompt("Digite um número (digite um número negativo para encerrar):"));
+            
+            if (numero < 0) {
+                break; // Encerra o loop se o número for negativo
+            }
+            soma += numero; // Adiciona o número à soma
+        }
+
+        alert("A soma dos números digitados é: " + soma);
+    </script>
+</body>
+</html>

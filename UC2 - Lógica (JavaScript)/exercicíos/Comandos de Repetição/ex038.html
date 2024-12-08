@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 38</title>
+</head>
+<body>
+    <script>
+        let numero = parseInt(prompt("Digite um número inteiro:"));
+        let a = 0, b = 1;
+
+        let fibonacci = "0 1";
+
+        while (b <= numero) {
+            let proximo = a + b;
+            fibonacci += " " + proximo;
+            a = b;
+            b = proximo;
+        }
+
+        alert("Sequência de Fibonacci até " + numero + ": " + fibonacci);
+    </script>
+</body>
+</html>

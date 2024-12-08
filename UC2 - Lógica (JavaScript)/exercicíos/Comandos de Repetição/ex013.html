@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 13</title>
+</head>
+<body>
+    <script>
+        let numero = parseInt(prompt("Digite um número inteiro:"));
+        let digitos = "";
+
+        while (numero > 0) {
+            let ultimoDigito = numero % 10;
+            digitos = ultimoDigito + " " + digitos;
+            numero = (numero - (numero % 10)) / 10;
+        }
+
+        alert("Os dígitos separados são: " + digitos);
+    </script>
+</body>
+</html>
